@@ -12,4 +12,4 @@ In particular the chapters are:
 2. [Modification of moOde](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
 3. [PeppyMeter installation, configuration and modification](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
 4. [Functional and customization tests](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
-5. [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Buttons.md)
+5. [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
