@@ -57,4 +57,4 @@ Modifying the value of the third row if necessary.
 Then save the file (Ctrl "o")
 and exit (Ctrl "x")
 
-[Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) / [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde)
+[Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) / [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
