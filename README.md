@@ -10,6 +10,6 @@ It was decided to structure this repository in different sections which basicall
 In particular the chapters are:
 1. [Installation and configuration of PeppyAlsa](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/1_PeppyAlsa.md)
 2. [Modification of moOde](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
-3. [PeppyMeter installation, configuration and modification](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
+3. [Installation, configuration and modification of PeppyMeter](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
 4. [Functional and customization tests](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
 5. [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
