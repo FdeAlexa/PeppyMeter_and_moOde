@@ -9,7 +9,7 @@ As a result, a thread dedicated to the subject was also generated: http://moodea
 It was decided to structure this repository in different sections which basically reflect the implementation of the integration and any future developments.
 In particular the chapters are:
 1. [Installation and configuration of PeppyAlsa](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/1_PeppyAlsa.md)
-2. [Modification of moOde](/main/2_moOde)
+2. [Modification of moOde](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde)
 3. PeppyMeter installation, configuration and modification
 4. Functional and customization tests
 5. Implementation of two buttons.
