@@ -18,11 +18,16 @@ autoconf && automake --add-missing
 sudo make install
 ```
 Now we have to create a new files ````/etc/asound.conf````. In the third row (slave.pcm) of this file we have to put the default output we have in the moOde system.
-This value (that normally is "hw:0,0" or "hw:1,0") is contained in the `aplay -l` results. E.g. if the results is 
+This value (that normally is "hw:0,0" or "hw:1,0") is contained in the `aplay -l` results.
+E.g. if the results is
+
 `**** List of PLAYBACK Hardware Devices ****
+
 card 0: PianoDAC [PianoDAC], device 0: Piano DAC HiFi pcm512x-hifi-0 [Piano DAC HiFi pcm512x-hifi-0]
-  Subdevices: 0/1
-  Subdevice #0: subdevice #0
+
+Subdevices: 0/1
+
+Subdevice #0: subdevice #0
 `
 The slave.pcm must contain "hw:X,Y" where X is the card (in this case "0") and Y is the device (in this case "0"): that means that we have to to insert:
 `slave.pcm "hw:0,0"`
