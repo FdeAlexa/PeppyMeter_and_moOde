@@ -1,9 +1,9 @@
 ## Modification of moOde
 
 At this point we have to patch an important file that contributes to the creation of the moOde MPD configuration: this file is different for each moOde release: now let's choose which release we are using.
-* [moOde 6.7.1](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_1_moOde671.md)
-* [moOde 7.0.1](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_2_moOde701.md)
-* [moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_3_moOde710.md)
+* [moOde 6.7.1](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_1_moOde671.md)
+* [moOde 7.0.1](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_2_moOde701.md)
+* [moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_3_moOde710.md)
 
 Code:
 sudo nano /var/www/inc/playerlib.php
