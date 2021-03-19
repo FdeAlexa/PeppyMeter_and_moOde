@@ -6,10 +6,13 @@ MoOde audio is an audio player system for Raspberry Pi. It provides a beautifull
 The successful integration of these two systems and therefore the creation of this repository was possible thanks to the help of some components of two large forums: that of diyAudio and moOde: in particular in the threads https: //www.diyaudio.com/forums/pc-based/291010-peppymeter.html and http://moodeaudio.org/forum/showthread.php?tid=155.
 As a result, a thread dedicated to the subject was also generated: http://moodeaudio.org/forum/showthread.php?tid=3484.
 
-It was decided to structure this repository in different sections which basically reflect the implementation of the integration and any future developments.
+It was decided to structure this repository in different sections which basically reflect the implementation of the integration and any additional developments.
 In particular the chapters are:
+### Integration
 1. [Installation and configuration of PeppyAlsa](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/1_PeppyAlsa.md)
 2. [Modification of moOde](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
 3. [Installation, configuration and modification of PeppyMeter](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
 4. [Functional and customization tests](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
-5. [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
+### Additional developments
+* [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
+
