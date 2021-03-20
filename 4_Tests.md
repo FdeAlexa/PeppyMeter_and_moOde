@@ -33,27 +33,27 @@ emerald
 red
 tube
 ```
-then configure our PeppyMeter:
-
-Quote:
-Code:
-sudo nano /home/pi/PeppyMeter/config.txt
-
-modifying the following contents. From:
-Code:
+This is very simple: 
+```
+nano /home/pi/PeppyMeter/config.txt
+```
+going to replace the content of the second line from:
+```
 "meter = random"
-
-to e.g.:
-Code:
+```
+to, e.g.:
+```
 "meter = emerald"
+```
+Then save the file (Ctrl "o")
+and exit (Ctrl "x")
 
-Ctrl o and Enter to save and then Ctrl x to exit.
-
-Then start again:
-
-Code:
+Let us start again PeppyMeter:
+```
 cd /home/pi/PeppyMeter
 sudo python3 peppymeter.py
+```
+and..
 
 Enjoy listening music... and its graphic
 
