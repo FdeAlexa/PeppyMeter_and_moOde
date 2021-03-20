@@ -47,15 +47,15 @@ to, e.g.:
 ```
 Then save the file (Ctrl "o")
 and exit (Ctrl "x")
-please note that the meaning of the parameter reported in the program's config.txt can be in 
-Let us start again PeppyMeter:
+
+Note that the meaning of the parameters reported in the program's config.txt file can be found in https://github.com/project-owner/PeppyMeter.doc/wiki.
+
+At this point: let us start again PeppyMeter:
 ```
 cd /home/pi/PeppyMeter
 sudo python3 peppymeter.py
 ```
-and..
-
+and...
 Enjoy listening music... and its graphic
-
 
 [Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md) / [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) 
