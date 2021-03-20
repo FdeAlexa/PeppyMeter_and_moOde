@@ -11,8 +11,8 @@ In particular the chapters are:
 ### Integration
 1. [Installation and configuration of PeppyAlsa](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/1_PeppyAlsa.md)
 2. [Modification of moOde](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
-3. [Installation, configuration and modification of PeppyMeter](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
-4. [Functional and customization tests](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
+3. [Installation, modification and configuration of PeppyMeter](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
+4. [Functional tests and customization](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
 ### Additional developments
-* [Implementation of two buttons](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
-
+* [Creation of scripts and services](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Script_Services.md)
+* [Implementation of two buttons solution](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
