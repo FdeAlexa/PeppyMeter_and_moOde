@@ -13,7 +13,7 @@ To do this we need to modify the peppymeter.py program, as follows:
 ```
 nano /home/pi/PeppyMeter/peppymeter.py
 ```
-Let us go to the line 142 (Ctrl "-142")
+Let us go to the line 142 (Ctrl "-142" and Enter)
 and modify the current content from:
 ```
 self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h), pygame.DOUBLEBUF, depth)
