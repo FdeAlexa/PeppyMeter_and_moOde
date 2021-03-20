@@ -8,12 +8,12 @@ sudo python3 peppymeter.py
 ```
 We should see, on the display, a kind of VU Meter that changes every 20 seconds (the time can be changed in the config.txt).
 A couple of messages (warning) appear on the peppy screen at each change: don't care.
-I suggest you, once you have decided which one you prefer, to stop the PeppyMeter:
+I suggest you, once you have decided which VU Meter you prefer, to stop the PeppyMeter:
 with a 
 ```
 double (Ctrl "c")
 ```
-There are many parameters that can be changed in the program's config.txt. Let's analyze the type of VU Meter: currently there are numerous available and, for the video resolution we use (800x480), corresponding to "screen.size = large", they are the following:
+There are many parameters that can be changed in the program's config.txt. Let's analyze the type of VU Meter (meter =): currently there are numerous available and, for the video resolution we use (800x480), corresponding to "screen.size = large", they are the following:
 ```
 bar
 blue
