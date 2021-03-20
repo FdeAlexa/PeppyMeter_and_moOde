@@ -56,7 +56,7 @@ pcm_scope_type.peppyalsa {
 }
 ```
 Modifying the value of the third row if necessary.
-Then save the file (Ctrl "o")
+Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
 
 [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) / [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
