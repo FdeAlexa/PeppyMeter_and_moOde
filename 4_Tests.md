@@ -45,7 +45,7 @@ to, e.g.:
 ```
 "meter = emerald"
 ```
-Then save the file (Ctrl "o")
+Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
 
 Note that the meaning of the parameters reported in the program's config.txt file can be found in https://github.com/project-owner/PeppyMeter.doc/wiki.
