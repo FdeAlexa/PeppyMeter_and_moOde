@@ -1,6 +1,105 @@
 ## Installation, configuration and modification of PeppyMeter
+We have already installed and configured PeppyAlsa, then we modified moOde and checked that everything was done correctly; now we need to install the graphics part.
+The following are the commands to install PeppyMeter:
+```
+cd /home/pi
+git clone https://github.com/project-owner/PeppyMeter.git
+sudo apt-get install python3-pygame
+cd /home/pi/PeppyMeter
+```
+Now we just have to modify and configure PeppyMeter.
+The change is to disable the double buffer, which is not compatible with the rpi touch screen.
+To do this we need to modify the peppymeter.py program, as follows:
+```
+nano /home/pi/PeppyMeter/peppymeter.py
+```
 
-First of all let us open a putty session on our moOde system and run:
+Ctrl -142 to go to row 142 and modify the current content from:
+       
+Code:
+self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h), pygame.DOUBLEBUF, depth)
+to the new content:
+Code:
+self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h))
+
+Ctrl o and Enter to save and then Ctrl x to exit.
+
+
+Code:
+cd /home/pi
+git clone https://github.com/project-owner/PeppyMeter.git
+sudo apt-get install python3-pygame
+cd /home/pi/PeppyMeter
+
+Now we have to configure our PeppyMeter:
+
+
+Quote:
+Code:
+nano /home/pi/PeppyMeter/config.txt
+
+modifying the following contents:
+Code:
+"screen.size = large"
+"framebuffer.device = /dev/fb0"
+"mouse.device = /dev/input/event0"
+"pipe.name = /var/tmp/peppyfifo"
+
+Ctrl o and Enter to save and then Ctrl x to exit.
+
+Now we have to modify the program to disable the double buffer:
+
+
+Quote:
+Code:
+nano /home/pi/PeppyMeter/peppymeter.py
+
+Ctrl -142 to go to row 142 and modify the current content from:
+       
+Code:
+self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h), pygame.DOUBLEBUF, depth)
+to the new content:
+Code:
+self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h))
+
+Ctrl o and Enter to save and then Ctrl x to exit.
+
+At this point we have finished. To see the meter on the default display we have to start listening music and:
+
+Code:
+cd /home/pi/PeppyMeter
+sudo python3 peppymeter.py
+
+We should see, on the display, a kind of meter that changes every 20 seconds (time can be changed in the config.txt).
+On the Putty screen appears a couple of message (like an error) at every change.
+I suggest that, once you have decided what you prefer, to stop the meter:
+
+Quote:Ctrl c Ctrl c 
+
+The available type of meter, for the "large" size we have choosen, at the moment, are:
+
+Quote:
+bar
+blue
+vintage
+dash
+gas
+rainbow
+grunge
+royal
+compass
+gold
+black-white
+white-red
+orange
+blue-2
+emerald
+red
+tube
+
+then configure our PeppyMeter:
+
+
 
 ```aplay -l```
 
