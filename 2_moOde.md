@@ -19,8 +19,8 @@ At this point we can test the whole chain built up to now:
 ```
 Listening the music we should see on the putty screen a couple of bar moving with the music intensity, as the following picture:
 
-![peppyalsa-client](https://user-images.githubusercontent.com/71403166/111850325-47ae0100-8910-11eb-9394-1a7616727404.jpg)
-    
+![Test PeppyALSA](https://user-images.githubusercontent.com/71403166/111880215-5b0daa80-89aa-11eb-8695-030530941d50.jpg)
+   
 Exit from the program:
 ```
 (Ctrl "c")
