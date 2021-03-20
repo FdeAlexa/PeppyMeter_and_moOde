@@ -22,7 +22,7 @@ to the new content:
 ```
 self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h))
 ```
-Then save the file (Ctrl "o")
+Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
 
 The last step, before being able to see the result of our work, is to configure PeppyMeter, modifying the program's config.txt as follows:
@@ -36,7 +36,7 @@ going to replace the content of only the lines below and leaving everything else
 "mouse.device = /dev/input/event0"
 "pipe.name = /var/tmp/peppyfifo"
 ```
-Then save the file (Ctrl "o")
+Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
 
 [Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md) / [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) /  [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
