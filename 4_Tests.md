@@ -47,7 +47,7 @@ to, e.g.:
 ```
 Then save the file (Ctrl "o")
 and exit (Ctrl "x")
-
+please note that the meaning of the parameter reported in the program's config.txt can be in 
 Let us start again PeppyMeter:
 ```
 cd /home/pi/PeppyMeter
