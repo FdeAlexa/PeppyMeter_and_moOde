@@ -21,6 +21,10 @@ Listening the music we should see on the putty screen a couple of bar moving wit
 
 ![peppyalsa-client](https://user-images.githubusercontent.com/71403166/111850325-47ae0100-8910-11eb-9394-1a7616727404.jpg)
     
+Exit from the program:
+```
+(Ctrl "c")
+```
 Now we are closer to the end: we have, now, to install PeppyMeter.
 
 [Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/1_PeppyAlsa.md) / [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) /  [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
