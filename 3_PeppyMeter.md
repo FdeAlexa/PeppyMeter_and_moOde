@@ -39,39 +39,4 @@ going to replace the content of only the lines below and leaving everything else
 Then save the file (Ctrl "o")
 and exit (Ctrl "x")
 
-At this point we have finished. To see the meter on the default display we have to start listening music and:
-
-Code:
-cd /home/pi/PeppyMeter
-sudo python3 peppymeter.py
-
-We should see, on the display, a kind of meter that changes every 20 seconds (time can be changed in the config.txt).
-On the Putty screen appears a couple of message (like an error) at every change.
-I suggest that, once you have decided what you prefer, to stop the meter:
-
-Quote:Ctrl c Ctrl c 
-
-The available type of meter, for the "large" size we have choosen, at the moment, are:
-
-Quote:
-bar
-blue
-vintage
-dash
-gas
-rainbow
-grunge
-royal
-compass
-gold
-black-white
-white-red
-orange
-blue-2
-emerald
-red
-tube
-
-
-
 [Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md) / [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) /  [Next](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
