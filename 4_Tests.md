@@ -1,7 +1,7 @@
 ## Functional and customization tests
 
 We just have to try the operation and customize the aesthetics of our PeppyMeter.
-To see the VV Meter on the default display we have to start listening music and:
+To see the VU Meter on the default display we have to start listening music and:
 ```
 cd /home/pi/PeppyMeter
 sudo python3 peppymeter.py
