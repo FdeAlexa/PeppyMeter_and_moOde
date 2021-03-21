@@ -28,6 +28,7 @@ At this point: let us start again PeppyMeter:
 cd /home/pi/PeppyMeter
 sudo python3 peppymeter.py
 ```
+We should see, on the display, the VU Meter that you prefer
 and...
 Enjoy listening music... and its graphic
 
