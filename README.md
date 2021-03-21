@@ -20,4 +20,4 @@ In particular the chapters are:
 ### Additional developments
 * [Creation of scripts & service](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Script_Services.md)
 * [Implementation of two buttons solution](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
-* [Implementation of two buttons solution](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Upgrade_7_1_0.md)
+* [Upgrade to moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Upgrade_7_1_0.md)
