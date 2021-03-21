@@ -1,5 +1,5 @@
 ## Upgrade to moOde 7.1.0
-This section is dedicated to those who, already with moOde 7.0.1, had previously installed PeppyMeter and, now, have upgraded to moOde 7.1.0. Obviously the PeppyMeter does not work as there is a need to modify the file ````playerlib.php```` for the release 7.1.0: please return to [previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md) page if your current release is not 7.1.0.
+This section is dedicated to those who, already with moOde 7.0.1, had previously installed PeppyMeter and, now, have upgraded to moOde 7.1.0. Obviously the PeppyMeter does not work as there is a need to modify the file ````playerlib.php```` for the release 7.1.0: please return to [Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md) page if your current release is not 7.1.0.
 
 To modify it:
 ```
@@ -31,4 +31,4 @@ sudo python3 peppymeter.py
 and...
 Enjoy listening music... and its graphic
 
-[Previous](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_moOde.md)
+[Home](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/README.md)
