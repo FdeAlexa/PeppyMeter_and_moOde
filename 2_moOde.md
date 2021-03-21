@@ -5,7 +5,11 @@ At this point we have to patch an important file that contributes to the creatio
 * [moOde 7.0.1](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_2_moOde701.md)
 * [moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/2_3_moOde710.md)
 
-Now reboot the system and try to listen any music (a radio is the simplest way) if the moOde is still alive!!! 
+Now 
+```
+reboot
+```
+the system and try to listen any music (a radio is the simplest way) if the moOde is still alive!!! 
 If not we have to troubleshoot where we made a mistake.
 
 If everything is ok, let us continue:
