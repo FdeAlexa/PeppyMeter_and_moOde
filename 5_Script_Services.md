@@ -1,6 +1,6 @@
 ## Creation of scripts & service
 
-# Scripts
+### Scripts
 Let's analyze some methods to start and obviously stop the PeppyMeter execution.
 
 As previously mentioned, to be able to start it, simply run the program in python language in the application directory. This start can take place with the following commands:
@@ -52,7 +52,7 @@ check that everything works and then:
 ```
 to finish and return to the moOde GUI.
 
-# Service
+### Service
 Another method to be able to start the PeppyMeter program is to use it as a service: this will result in automatic startup when our moOde system is turned on. Which means we should act externally to operate with the moOde GUI.
 Obviously by stopping the service, the gui will become available.
 To create the service we need to create another script that starts the PeppyMeter with a delay that allows the system, at power on, to load the GUI before the PeppyMeter.
