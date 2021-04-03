@@ -112,7 +112,7 @@ and then started
 ```
 sudo systemctl start peppymeter.service
 ```
-After a while we will see the VU Meter screen.
+After a while (>20 sec.) we will see the VU Meter screen.
 
 As already mentioned, at this point when the system starts up we will have the VU Meters on the display, instead of the moOde GUI.
 
@@ -120,7 +120,7 @@ Of course there is the command to stop the service (and then return to the moOde
 ```
 sudo service peppymeter stop
 ```
-and that to know the state:
+and that to know the status:
 ```
 sudo service peppymeter status
 ```
