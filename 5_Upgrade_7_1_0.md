@@ -8,11 +8,11 @@ sudo nano /var/www/inc/playerlib.php
 Let us go to the line 2041 (Ctrl "-2041" and Enter)
 and modify the current content from:
 ```
-"name \"ALSA default\"\n" . "device \"hw:" . $device . ",0\"\n",
+"name \"" . ALSA_DEFAULT . "\"\n" . "device \"hw:" . $device . ",0\"\n",
 ```
 to the new content:
 ```
-"name \"ALSA default\"\n" . "device \"peppyalsa\"\n",
+"name \"" . ALSA_DEFAULT . "\"\n" . "device \"peppyalsa\"\n",
 ```
 Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
