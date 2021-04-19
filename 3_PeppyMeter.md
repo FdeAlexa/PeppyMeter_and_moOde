@@ -7,25 +7,7 @@ git clone https://github.com/project-owner/PeppyMeter.git
 sudo apt-get install python3-pygame
 cd /home/pi/PeppyMeter
 ```
-Now we just have to modify and configure PeppyMeter.
-The change is to disable the double buffer, which is not compatible with the rpi touch screen.
-To do this we need to modify the peppymeter.py program, as follows:
-```
-nano /home/pi/PeppyMeter/peppymeter.py
-```
-Let us go to the line 142 (Ctrl "-142" and Enter)
-and modify the current content from:
-```
-self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h), pygame.DOUBLEBUF, depth)
-```
-to the new content:
-```
-self.util.PYGAME_SCREEN = pygame.display.set_mode((screen_w, screen_h))
-```
-Then save the file (Ctrl "o" and Enter)
-and exit (Ctrl "x")
-
-The last step, before being able to see the result of our work, is to configure PeppyMeter, modifying the program's config.txt as follows:
+Now we just have to configure PeppyMeter, modifying the program's config.txt as follows:
 ```
 nano /home/pi/PeppyMeter/config.txt
 ```
@@ -34,6 +16,7 @@ going to replace the content of only the lines below and leaving everything else
 "screen.size = large"
 "framebuffer.device = /dev/fb0"
 "mouse.device = /dev/input/event0"
+"double.buffer = False"
 "pipe.name = /var/tmp/peppyfifo"
 ```
 Then save the file (Ctrl "o" and Enter)
