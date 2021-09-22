@@ -13,7 +13,7 @@ nano /home/pi/PeppyMeter/config.txt
 ```
 going to replace the content of only the lines below and leaving everything else unchanged:
 ```
-"screen.size = large"
+"meter.size = large"
 "framebuffer.device = /dev/fb0"
 "mouse.device = /dev/input/event0"
 "double.buffer = False"
