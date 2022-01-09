@@ -7,6 +7,11 @@ git clone https://github.com/project-owner/PeppyMeter.git
 sudo apt-get install python3-pygame
 cd /home/pi/PeppyMeter
 ```
+(In case of any error downloading Pygame, please use the following command:
+```
+sudo apt update --allow-releaseinfo-change
+```
+and try again.
 Now we just have to configure PeppyMeter, modifying the program's config.txt as follows:
 ```
 nano /home/pi/PeppyMeter/config.txt
