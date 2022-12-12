@@ -18,7 +18,8 @@ In particular the chapters are:
 3. [Installation, modification and configuration of PeppyMeter](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/3_PeppyMeter.md)
 4. [Functional tests and customization](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/4_Tests.md)
 ### Additional developments
+* [Auto Start](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Auto_start.md)
 * [Creation of scripts & service](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Script_Services.md)
 * [Implementation of two buttons solution](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
 * [Upgrade to moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Upgrade_7_1_0.md)
-* [Auto Start](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Auto_start.md)
+
