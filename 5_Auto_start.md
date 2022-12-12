@@ -47,7 +47,7 @@ sudo systemctl enable fda_autopeppy.service
 sudo systemctl start fda_autopeppy.service
 ```
 
-# Reboot the system
+Reboot the system
 The PeppyMeter will start at the first "play".
 
 Enjoy listening music... and its graphic
