@@ -21,3 +21,4 @@ In particular the chapters are:
 * [Creation of scripts & service](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Script_Services.md)
 * [Implementation of two buttons solution](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Buttons.md)
 * [Upgrade to moOde 7.1.0](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Upgrade_7_1_0.md)
+* [Auto Start](https://github.com/FdeAlexa/PeppyMeter_and_moOde/blob/main/5_Auto_start.md)
