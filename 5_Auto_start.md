@@ -2,6 +2,7 @@
 This section is dedicated to For those who want to start PeppyMeter automatically, following the audio playback, instead of the moOde GUI, I have prepared a Python program which, started as a service, checks the status of the MPD and, consequently, starts and stops PeppyMeter.
 Obviously the first step is to have PeppyMeter: installed and running (see the complete procedure).
 As mentioned, the program checks the current playback status: to do this, you need to enable metadata updating as follows:
+
 At the moOde UI: go to
 ```
 Menu / 
