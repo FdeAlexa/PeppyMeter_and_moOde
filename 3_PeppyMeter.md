@@ -18,11 +18,11 @@ nano /home/pi/PeppyMeter/config.txt
 ```
 going to replace the content of only the lines below and leaving everything else unchanged:
 ```
-"meter.size = large"
-"framebuffer.device = /dev/fb0"
-"mouse.device = /dev/input/event0"
-"double.buffer = False"
-"pipe.name = /var/tmp/peppyfifo"
+meter.folder = 800x480
+framebuffer.device = /dev/fb0
+mouse.device = /dev/input/event0
+double.buffer = False
+pipe.name = /var/tmp/peppyfifo
 ```
 Then save the file (Ctrl "o" and Enter)
 and exit (Ctrl "x")
