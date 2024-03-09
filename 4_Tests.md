@@ -13,25 +13,33 @@ with a
 ```
 double (Ctrl "c")
 ```
-There are many parameters that can be changed in the program's config.txt. Let's analyze the type of VU Meter (meter =): currently there are numerous available and, for the video resolution we use (800x480), corresponding to "screen.size = large", they are the following:
+There are many parameters that can be changed in the program's config.txt. Let's analyze the type of VU Meter (meter =): currently there are numerous available and, for the video resolution we use (800x480), corresponding to "meter.folder = 800x480", they are the following:
 ```
 bar
-blue
-vintage
-dash
-gas
-rainbow
-grunge
-royal
-compass
-gold
+big-bang
 black-white
-white-red
-orange
 blue-2
+blue
+chillout
+compass
+dash
 emerald
+fantasy
+gas
+gold
+grunge
+orange
+rainbow
 red
+relax
+ring
+royal
+steam-punk
 tube
+vertical-circular
+vertical-linear
+vintage
+white-red
 ```
 This is very simple: 
 ```
