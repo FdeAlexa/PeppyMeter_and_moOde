@@ -4,7 +4,7 @@ We just have to try the operation and customize the aesthetics of our PeppyMeter
 To see the VU Meter on the default display we have to start listening music and:
 ```
 cd /home/pi/PeppyMeter
-sudo python3 peppymeter.py
+DISPLAY=:0 python peppymeter.py
 ```
 We should see, on the display, a kind of VU Meter that changes every 20 seconds (the time can be changed in the config.txt).
 A couple of messages (warning) appear on the peppy screen at each change: don't care.
@@ -61,7 +61,7 @@ Note that the meaning of the parameters reported in the program's config.txt fil
 At this point: let us start again PeppyMeter:
 ```
 cd /home/pi/PeppyMeter
-sudo python3 peppymeter.py
+DISPLAY=:0 python peppymeter.py
 ```
 and...
 Enjoy listening music... and its graphic
