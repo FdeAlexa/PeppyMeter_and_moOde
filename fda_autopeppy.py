@@ -30,7 +30,8 @@ def graph_monitor():
     global lastsong
     global proc
 
-    progname = "/home/pi/PeppyMeter/peppymeter.py"
+#    progname = "/home/pi/PeppyMeter/peppymeter.py"
+    progname = "DISPLAY=:0 python /home/pi/PeppyMeter/peppymeter.py"
     song = moodeCurrentSong()
     currentSongTitle = song['title']
 
@@ -38,7 +39,8 @@ def graph_monitor():
        prevstat = "ON"
        lastsong = currentSongTitle
        time.sleep(4) # Give time so moOdeaudio can wake up the screen 
-       proc = subprocess.Popen(["sudo", "python3", progname], shell=False)
+#       proc = subprocess.Popen(["sudo", "python3", progname], shell=False)
+       proc = subprocess.Popen([progname], shell=True)
     elif ( song['state'] == "pause" or song['state'] == "stop" )and prevstat == "ON":
        prevstat = "OFF"
        subprocess.run(["sudo", "pkill","-f", "peppymeter.py"])
