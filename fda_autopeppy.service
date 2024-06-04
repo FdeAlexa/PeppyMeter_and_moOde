@@ -3,7 +3,7 @@ Description=FdA Service to start PeppyMeter at PLAY
 
 [Service]
 WorkingDirectory=/home/pi/PeppyMeter/
-ExecStart=python3 fda_autopeppy.py
+ExecStart=python fda_autopeppy.py
 
 [Install]
 WantedBy=multi-user.target
