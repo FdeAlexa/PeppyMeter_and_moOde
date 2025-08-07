@@ -15,10 +15,6 @@ then set Metadata file to
 ```
 ON
 ```
-and click on
-```
-SET
-```
 
 ```
 # Copy the files FdA_AutoPeppy (fda_autopeppy.py and fda_autopeppy.service) in to the PeppyMeter directory (/home/pi/PeppyMeter)
