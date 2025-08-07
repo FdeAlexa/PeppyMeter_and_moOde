@@ -7,8 +7,9 @@ At the moOde UI: go to
 ```
 Menu / 
 Configure / 
-System Config / 
-Local Services
+Audio /
+MPD Options /
+General
 ```
 then set Metadata file to
 ```
